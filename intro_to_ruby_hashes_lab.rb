@@ -21,7 +21,22 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-	monopoly = {}
+monopoly = {
+	  :railroads => {
+	                 pieces: 4, 
+	                 :names => {
+	                            :reading_railroad => {}
+	                            :pennsylvania_railroad => {}
+	                 },
+	                 :rent_in_dollars => {
+	                                       one_piece_owned: 2,
+	                                       two_pieces_owned: 50, 
+	                                       three_pieces owned: 100,
+	                                       four_pieces_owned: 200
+	                 }
+	    
+	  }
+	}
 		
 end
 
